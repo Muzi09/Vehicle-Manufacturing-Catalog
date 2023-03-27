@@ -1,0 +1,116 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 1em;
+}
+
+#search {
+    font-size: large;
+    position: relative;
+    left: 3.4em;
+    top: 1em;
+}
+
+.search-label {
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    left: 3em;
+    top: 1em;
+}
+
+
+#select {
+    font-size: large;
+    position: relative;
+    left: 28.4em;
+    top: 1em;
+}
+
+.select-label {
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    left: 28em;
+    top: 1em;
+}
+
+.table {
+    margin-top: 3.5em;
+    margin-left: 4%;
+    width: 92%;
+    max-height: 100vh;
+}
+
+th {
+    background-color: rgb(50, 42, 105);
+    color: white;
+    height: 2em;
+    width: 33%;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+td {
+    text-align: center;
+    height: 2em;    
+    width: 33%;
+}
+
+.pop-up {
+    box-sizing: border-box;
+    position: fixed;
+    left: 33%;
+    top: 12em;
+    width: 33%;
+    border: none;
+    background-color: rgb(50, 42, 105); 
+    color: whitesmoke;
+    text-align: center;
+    height: 15em;
+    border-radius: 1em;
+}
+
+.company-name {
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 2em;
+}
+
+.ceo {
+    font-size: large;
+    margin-top: 1em;
+}
+
+.location {
+    font-size: large;
+    margin-top: 1em;
+
+}
+
+.country {
+    font-size: large;   
+    margin-top: 1em;
+}
+
+.X {
+    border: none;
+    background-color: rgb(50, 42, 105);
+    color: whitesmoke;
+    position: relative;
+    left: 10.5em;
+    bottom: 9.5em;
+    font-weight: bolder;
+    font-size: larger;
+}
